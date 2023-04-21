@@ -1,7 +1,5 @@
 from tensorflow import keras
-import tensorflow as tf
 import numpy as np
-import cv2
 
 (X_train, y_train), (X_test, y_test) = keras.datasets.mnist.load_data()  # (60000, 28, 28) (10000, 28, 28)
 
